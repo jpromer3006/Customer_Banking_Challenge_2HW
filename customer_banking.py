@@ -19,7 +19,7 @@ def main():
     
     # Print out the interest earned and updated savings account balance with interest earned for the given months.
     print(f"Interest earned on the Savings Account would be ${interest_earned:.2f}")
-    print(f"And your future Savings account balance in {savings_maturity} months would be {updated_savings_balance:.2f}")
+    print(f"And your future Savings account balance in {savings_maturity} months would be ${updated_savings_balance:.2f}")
 
     # Prompt the user to set the CD balance, interest rate, and months for the CD account.
     cd_balance = float(input("CD accounts are another great way to save money for the future.\nPlease enter an amount of $ you would like to put in a CD account?: $"))
